@@ -14,8 +14,8 @@ class MyMessageBubble extends StatelessWidget {
           decoration: BoxDecoration(
             color:colors.primary, borderRadius: BorderRadius.circular(20),
           ),
-          child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+          child: const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
             child: Text(
               'Tempor Lorem pariatur nisi on.',
               style: TextStyle(color: Colors.white),
