@@ -3,12 +3,12 @@ import 'package:flutter/material.dart';
 const Color _customColor1 = Color(0x00272D4D);
 const Color _customColor2 = Color(0x007f135f);
 const Color _customColor3 = Color(0x00dbf73b);
-
+const Color _customColor4 = Color(0x00fdff00);
 const List<Color> _colorThemes = [
   _customColor1,
   _customColor2,
   _customColor3,
-  Colors.yellow,
+  _customColor4,
   Colors.teal
 ];
 
